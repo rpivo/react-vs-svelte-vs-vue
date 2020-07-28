@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "paths": {
+      "@components/*": ["components/*"],
+    },
+    "strict": true,
+    "target": "esnext",
+  }
+}
