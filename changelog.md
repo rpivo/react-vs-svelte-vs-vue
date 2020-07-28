@@ -4,6 +4,6 @@
 - add readme
 - add changelog
 - npm init
-- update readme
 - add gitignore
 - add node_modules to gitignore
+- install typescript

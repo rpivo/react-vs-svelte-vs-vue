@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/rpivo/react-vs-svelte-vs-vue/issues"
   },
-  "homepage": "https://github.com/rpivo/react-vs-svelte-vs-vue#readme"
+  "homepage": "https://github.com/rpivo/react-vs-svelte-vs-vue#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
 }
