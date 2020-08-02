@@ -57,6 +57,6 @@ npm install vue
 <hr />
 
 #### Points Awarded
-React: +1 / 1 total
-Svelte: 0 / 0 total
-Vue: +1   / 1 total
+- React: +1 / 1 total
+- Svelte: 0 / 0 total
+- Vue: +1   / 1 total
