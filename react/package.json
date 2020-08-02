@@ -5,6 +5,7 @@
   "author": "Ryan Pivovar <ryanpivovar@gmail.com> (https://github.com/rpivo)",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

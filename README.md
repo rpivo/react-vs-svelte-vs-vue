@@ -84,6 +84,17 @@ Vue's initial install is the easiest. No external dependencies are added in the 
 
 ### React
 
+The React entry file (`index.js`) will need this folder structure (not mandatory, but commonly done this way).
+```
+- src
+  - index.js
+  - components
+    - App.js
+- dist
+  - index.html
+```
+The `index.js` file will import the `App.js` file, and once the code from the `src` folder is compiled, it will be dumped in the `dist` folder. `index.html` will then point to this bundled code.
+
 ### Svelte
 
 ### Vue
