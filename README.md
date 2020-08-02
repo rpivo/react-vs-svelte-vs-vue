@@ -54,6 +54,8 @@ Nonetheless, this approach will likely save time when getting through the next s
 npm install vue
 ```
 
+Vue's initial install is the easiest. No external dependencies are added in the process, and the resulting folder size is also the smallest.
+
 **Folder size so far: 3.6mb**
 
 #### Pros
