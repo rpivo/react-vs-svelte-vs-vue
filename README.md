@@ -31,9 +31,11 @@ npx degit sveltejs/template svelte-repo
 cd svelte-repo
 npm install
 ```
-The script is an opinionated approach that generates some amount of boilerplate. It's a minor complaint, but I'd ideally want to not generate any fluff when starting a project.
+Svelte really only offers one recommended way to install, and it's an opinionated approach that generates some amount of boilerplate. It's a minor complaint, but I'd ideally want to have a more bare metal approach when initializing the repo.
 
 Svelte's documentation suggests using the `degit` package to get set up. While it looks like this will save you time and space, the approach will be unfamiliar at first, and that might be initially off-putting.
+
+Nonetheless, this approach will likely save time when getting through the next several steps for the repo, so it sets Svelte back a bit in this phase of development, but will likely earn it points in future steps.
 
 **Folder size so far: 15mb**
 
