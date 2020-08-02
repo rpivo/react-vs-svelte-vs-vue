@@ -95,6 +95,14 @@ The React entry file (`index.js`) will need this folder structure (not mandatory
 ```
 The `index.js` file will import the `App.js` file, and once the code from the `src` folder is compiled, it will be dumped in the `dist` folder. `index.html` will then point to this bundled code.
 
+Our `index.js` entry point will look like this:
+```tsx
+import React from 'react';
+import { render } from 'react-dom';
+
+render(<div>Hello, World!</div>, document.getElementById('root'));
+```
+
 ### Svelte
 
 ### Vue
