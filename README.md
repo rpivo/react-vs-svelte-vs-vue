@@ -1,6 +1,11 @@
 # React vs Svelte vs Vue
 In this repo, I compare and contrast these three frameworks across a number of metrics, including **build size**, **performance**, integration with **Rollup**, integration with **TypeScript**, and more.
 
+### Table of Contents
+- [Main Package Installation](#main-package-installation)
+- [Setting up the Entry File](#setting-up-the-entry-file)
+
+
 ## Main Package Installation
 
 ### React
@@ -60,3 +65,7 @@ npm install vue
 - React: +1 / 1 total
 - Svelte: 0 / 0 total
 - Vue: +1   / 1 total
+
+<hr />
+
+## Setting up the Entry File
