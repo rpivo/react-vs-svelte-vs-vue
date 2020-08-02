@@ -84,12 +84,33 @@ Vue's initial install is the easiest. No external dependencies are added in the 
 
 ### React
 
-Our `index.js` entry point will look like this:
-```tsx
+I'll set up my entry file inside this folder structure:
+```
+- dist
+  -index.html
+- src
+  - components
+    - App.js
+  index.js
+```
+
+The `index.js` entry point will look like this:
+```jsx
 import React from 'react';
 import { render } from 'react-dom';
+imort App from './components/App';
 
-render(<div>Hello, World!</div>, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
+```
+
+This will import the top-level `App` component:
+```jsx
+import React from 'react';
+
+const App = () => <div>Hello, World!</div>;
+
+export default App;
+
 ```
 
 Once this entry file is compiled, it will be loaded in from an `index.html` file that looks like this:
