@@ -3,7 +3,7 @@ In this repo, I compare and contrast these three frameworks across a number of m
 
 ### Table of Contents
 - [Main Package Installation](#main-package-installation)
-- [Setting up the Entry File](#setting-up-the-entry-file)
+- [Initial Entry File Setup](#initial-entry-file-setup)
 
 
 ## Main Package Installation
@@ -12,18 +12,18 @@ In this repo, I compare and contrast these three frameworks across a number of m
 
 ```sh
 npm install react
+npm install react-dom
 ```
-Even with just the one install so far, we've created dependencies on several external packages, and our total package count is 6.
 
-Nonetheless, the folder size is actually pretty light with just the main package so far, making the React repo the only one of the three that's under a megabyte in size.
+I need both `react` and `react-dom` to get up and running with React. So, the install process is relatively easy, though slightly more complicated than Vue, and the resulting folder size is slightly larger than Vue.
 
-**Folder size so far: 500kb**
+**Folder size so far: 3.8mb**
 
 #### Pros:
-- Easy install
-- Small folder size to start
+- Relatively easy install
 #### Cons:
-- Starts off with lots of external packages
+- Starts off with a few external packages
+
 ### Svelte
 
 ```sh
@@ -38,12 +38,14 @@ Svelte's documentation suggests using the `degit` package to get set up. While i
 **Folder size so far: 15mb**
 
 #### Pros
-- Opinionated and thorough install will probably save us time getting later steps set up
+- Opinionated and thorough install will probably save time getting later steps set up
 #### Cons
 - Opinionated install
 - Unfamiliar install process might be a minor setback to start
 - Will probably have to delete some boilerplate after the install
 - Folder size is the heaviest after initial install
+- Starts off with lots of external dependencies
+
 ### Vue
 
 ```sh
@@ -55,17 +57,24 @@ npm install vue
 #### Pros
 - Easy install
 - No external dependencies to start.
+- Lightest main package install.
 
 #### Cons
-- Not the lightest main package install.
+- N/A
 
 <hr />
 
 #### Points Awarded
-- React: +1 / 1 total
-- Svelte: 0 / 0 total
-- Vue: +1   / 1 total
+- React: +1 ... / 1 total
+- Svelte: 0 ... / 0 total
+- Vue: +2 ..... / 2 total
 
 <hr />
 
-## Setting up the Entry File
+## Initial Entry File Setup
+
+### React
+
+### Svelte
+
+### Vue
