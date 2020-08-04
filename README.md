@@ -137,13 +137,11 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 The `main.js` entry point for Svelte looks like this:
 
 ```js
-import App from './App.svelte';
+import App from "./App.svelte";
 
 const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
+  target: document.body,
+  props: { name: "world" },
 });
 
 export default app;
