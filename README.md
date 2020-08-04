@@ -126,6 +126,9 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
   </body>
 </html>
 ```
+#### Pros
+- Easy to understand
+- Entry point is clearly defined and we can achieve a separation of concerns, if desired
 
 ### Svelte
 
