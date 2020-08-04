@@ -87,11 +87,11 @@ Vue's initial install is the easiest. No external dependencies are added in the 
 I'll set up my entry file inside this folder structure:
 ```
 - dist
-  -index.html
+  - index.html
 - src
+  - index.js
   - components
     - App.js
-  index.js
 ```
 
 The `index.js` entry point will look like this:
