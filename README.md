@@ -2,8 +2,8 @@
 In this repo, I compare and contrast these three frameworks across a number of metrics, including **build size**, **performance**, integration with **Rollup**, integration with **TypeScript**, and more.
 
 ### Table of Contents
-- [Main Package Installation](#main-package-installation)
-- [Initial Entry File Setup](#initial-entry-file-setup)
+1. [Main Package Installation](#main-package-installation)
+2. [Initial Entry File Setup](#initial-entry-file-setup)
 
 
 ## Main Package Installation
