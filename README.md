@@ -129,7 +129,29 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 #### Pros
 - Easy to understand
 - Entry point is clearly defined and we can achieve a separation of concerns, if desired
+#### Cons
+- must use create-react-app or a similar React Starter Kit to become familiar with this layout if need be.
 
 ### Svelte
+
+The `main.js` entry point for Svelte looks like this:
+
+```js
+import App from './App.svelte';
+
+const app = new App({
+	target: document.body,
+	props: {
+		name: 'world'
+	}
+});
+
+export default app;
+```
+
+#### Pros
+- Because we had no other option but to bootstrap into the Svelte `template`, initial entry file setup is already taken care of.
+#### Cons
+- Opinionated entry file setup due to bootstrapping.
 
 ### Vue
