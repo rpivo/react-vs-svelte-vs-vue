@@ -134,15 +134,12 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 
 ### Svelte
 
-The `main.js` entry point for Svelte looks like this:
+At its simplest, `main.js` entry point for Svelte looks like this:
 
 ```js
 import App from './App.svelte';
 
-const app = new App({
-  target: document.body,
-  props: { name: 'world' },
-});
+const app = new App({ target: document.body });
 
 export default app;
 ```
@@ -150,36 +147,9 @@ export default app;
 Like the React example, we are loading in our component from a separate file. In Svelte, we will keep the component in a `.svelte` file:
 
 ```svelte
-<script>
-	export let name;
-</script>
-
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Hello, World!</h1>
 </main>
-
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
 ```
 
 #### Pros
