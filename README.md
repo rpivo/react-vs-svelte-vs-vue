@@ -118,8 +118,9 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 ```html
 <html lang="en">
   <head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width,initial-scale=1'>
+
     <title>React Proof of Concept</title>
   </head>
   <body>
@@ -157,15 +158,17 @@ After we build our source code, we will load it into an index.html file.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
-	<title>Svelte Proof of Concept</title>
-	<link rel='stylesheet' href='/build/bundle.css'>
-	<script defer src='/build/bundle.js'></script>
-</head>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width,initial-scale=1'>
 
-<body></body>
+		<title>Svelte Proof of Concept</title>
+
+		<link rel='stylesheet' href='/build/bundle.css'>
+		<script defer src='/build/bundle.js'></script>
+	</head>
+
+	<body></body>
 </html>
 ```
 
