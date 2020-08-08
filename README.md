@@ -147,9 +147,25 @@ export default app;
 Like the React example, we are loading in our component from a separate file. In Svelte, we will keep the component in a `.svelte` file:
 
 ```svelte
-<main>
-	<h1>Hello, World!</h1>
-</main>
+<main><h1>Hello, World!</h1></main>
+```
+
+After we build our source code, we will load it into an index.html file.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Svelte Proof of Concept</title>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/bundle.js'></script>
+</head>
+
+<body></body>
+</html>
 ```
 
 #### Pros
