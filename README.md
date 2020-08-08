@@ -130,6 +130,7 @@ export default App;
 Once this entry file is compiled, it will be loaded in from an `index.html` file that looks like this:
 
 ```html
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
