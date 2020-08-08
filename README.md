@@ -184,7 +184,6 @@ After we build our source code, we will load it into an index.html file.
 
     <title>Svelte Proof of Concept</title>
 
-    <link rel="stylesheet" href="/build/bundle.css" />
     <script defer src="/build/bundle.js"></script>
   </head>
 
