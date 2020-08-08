@@ -116,8 +116,10 @@ export default App;
 Once this entry file is compiled, it will be loaded in from an `index.html` file that looks like this:
 
 ```html
-<html>
+<html lang="en">
   <head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
     <title>React Proof of Concept</title>
   </head>
   <body>
@@ -129,6 +131,7 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 #### Pros
 - Easy to understand
 - Entry point is clearly defined and we can achieve a separation of concerns, if desired
+- Easy to scaffold up a basic setup and introduce CSS later on.
 #### Cons
 - must use create-react-app or a similar React Starter Kit to become familiar with this layout if need be.
 
@@ -157,10 +160,8 @@ After we build our source code, we will load it into an index.html file.
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
-
 	<title>Svelte Proof of Concept</title>
 	<link rel='stylesheet' href='/build/bundle.css'>
-
 	<script defer src='/build/bundle.js'></script>
 </head>
 
