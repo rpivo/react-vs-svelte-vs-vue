@@ -148,10 +148,12 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 #### Pros
 
 - Easy to scaffold up a basic, agnostic setup and introduce CSS and build opinions later on.
+- JSX is an incredibly powerfully HTML-in-JS syntax.
 
 #### Cons
 
-- must use create-react-app or a similar React Starter Kit to become familiar with this layout if need be.
+- slightly more code to get up and running.
+- JSX, though powerful, might be a little more challenging for a newcomer to grasp.
 
 ### Svelte
 
