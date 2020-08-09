@@ -147,9 +147,7 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 
 #### Pros
 
-- Easy to understand
-- Entry point is clearly defined and we can achieve a separation of concerns, if desired
-- Easy to scaffold up a basic setup and introduce CSS later on.
+- Easy to scaffold up a basic, agnostic setup and introduce CSS and build opinions later on.
 
 #### Cons
 
@@ -157,10 +155,23 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 
 ### Svelte
 
+This is a basic folder structure setup:
+
+I'll set up my entry file inside this folder structure:
+
+```
+- public
+  - index.html
+- src
+  - main.js
+  - components
+    - App.svelte
+```
+
 At its simplest, `main.js` entry point for Svelte looks like this:
 
 ```js
-import App from "./App.svelte";
+import App from "./components/App.svelte";
 
 const app = new App({ target: document.body });
 
@@ -193,10 +204,12 @@ After we build our source code, we will load it into an index.html file.
 
 #### Pros
 
-- Because we had no other option but to bootstrap into the Svelte `template`, initial entry file setup is already taken care of.
+- .svelte component files are arguably the easiest for newcomers to read and understand since they look like HTML template files.
+- Slightly less code to get up and running.
 
 #### Cons
 
 - Opinionated entry file setup due to bootstrapping.
+- Requires build and css modification to the Svelte template to achieve the simplified, vanilla setup above.
 
 ### Vue
