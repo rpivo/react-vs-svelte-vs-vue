@@ -209,7 +209,6 @@ After we build our source code, we will load it into an index.html file.
 
 #### Cons
 
-- Opinionated entry file setup due to bootstrapping.
-- Requires build and css modification to the Svelte template to achieve the simplified, vanilla setup above.
+- Requires build and css modification to the Svelte template to achieve the stripped-down, unopinionated setup above.
 
 ### Vue
