@@ -157,8 +157,6 @@ Once this entry file is compiled, it will be loaded in from an `index.html` file
 
 ### Svelte
 
-This is a basic folder structure setup:
-
 I'll set up my entry file inside this folder structure:
 
 ```
