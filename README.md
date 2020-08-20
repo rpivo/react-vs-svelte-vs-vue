@@ -16,17 +16,19 @@ npm install react
 npm install react-dom
 ```
 
-I need both `react` and `react-dom` to get up and running with React. So, the install process is relatively easy, though slightly more complicated than Vue, and the resulting folder size is slightly larger than Vue.
+Both `react` and `react-dom` are needed to get up and running with an independent React project. The install process is relatively easy, though (negligibly) more complicated than Vue. 
 
-**Folder size so far: 3.8mb**
+All in all, a little less than ten individual dependencies are installed. This puts React square in the middle between the approaches of Svelte and Vue, where Svelte's opinionated install creates dozens of dependencies to start, and Vue's install only adds a `vue` folder to node_modules.
+
+At this point, React's node_modules folder is 3.8mb.
 
 #### Pros:
 
-- Relatively easy install
+- Easy install is about on par with Vue, and arguably more simple than Svelte.
 
 #### Cons:
 
-- Starts off with a few external packages
+- Project folder starts off with slightly more dependencies than Vue, but the resulting node_modules folders are 3.8mb and 3.6mb in size, respectively. Not that much difference, but Vue has a tiny advantage here.
 
 ### Svelte
 
