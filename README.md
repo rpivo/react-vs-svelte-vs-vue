@@ -20,11 +20,11 @@ Both `react` and `react-dom` are needed to get up and running with an independen
 
 All in all, a little less than ten individual dependencies are installed. This puts React square in the middle between the approaches of Svelte and Vue, where Svelte's opinionated install creates dozens of dependencies to start, and Vue's install only adds a `vue` folder to node_modules.
 
-At this point, React's node_modules folder is 3.8mb.
+Once these are installed, React's node_modules folder is 3.8mb.
 
 #### Pros:
 
-- Easy install is about on par with Vue, and arguably more simple than Svelte.
+- Easy install is about on par with Vue, and arguably more simple than Svelte's install process.
 
 #### Cons:
 
@@ -32,31 +32,33 @@ At this point, React's node_modules folder is 3.8mb.
 
 ### Svelte
 
+The Svelte docs recommend these commands to set up a Svelte project:
+
 ```sh
 npx degit sveltejs/template svelte-repo
 cd svelte-repo
 npm install
 ```
 
-Svelte really only offers one recommended way to install, and it's an opinionated approach that generates some amount of boilerplate. It's a minor complaint, but I'd ideally want to have a more bare metal approach when initializing the repo.
+Svelte's approach is opinionated and generates some amount of boilerplate. It's similar to setting up a project with `create-react-app` wherein the project is bootstrapped in no time for the developer. A lot of decisions are handled on the fly, and if we want to alter these previously made decisions, we'll likely have to refactor or completely gut some auto-generated code.
 
 Svelte's documentation suggests using the `degit` package to get set up. While it looks like this will save you time and space, the approach will be unfamiliar at first, and that might be initially off-putting.
 
-Nonetheless, this approach will likely save time when getting through the next several steps for the repo, so it sets Svelte back a bit in this phase of development, but will likely earn it points in future steps.
+Nonetheless, this approach will likely save time for a newcomer to Svelte, and once certain concepts are picked up with this process, some might prefer it over React and Vue.
 
-**Folder size so far: 15mb**
+After install, Svelte's node_modules is 15mb, which is almost five times the size of both React and Vue's dependency weight at this point. This of course is because the Svelte install has already handled build setup and other conveniences for us that we have yet to set up in the React and Vue projects.
+
+Given our lack of choices in setup, and given that our install is pretty weighty to start, Svelte is at a disadvantage to React and Vue here. Svelte has put their money on providing maximum convenience for the developer at the expense of options upfront.
 
 #### Pros
 
-- Opinionated and thorough install will probably save time getting later steps set up
+- Opinionated and thorough install will save time getting later steps set up.
 
 #### Cons
 
-- Opinionated install
-- Unfamiliar install process might be a minor setback to start
-- Will probably have to delete some boilerplate after the install
-- Folder size is the heaviest after initial install
-- Starts off with lots of external dependencies
+- Opinionated install doesn't leave many options, and user will probably have to delete some boilerplate after the install
+- Unfamiliar install process might be a minor setback to start.
+- node_modules is five times the size of React's or Vue's to start.
 
 ### Vue
 
