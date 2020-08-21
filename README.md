@@ -56,7 +56,7 @@ Given our lack of choices in setup, and given that our install is pretty weighty
 
 #### Cons
 
-- Opinionated install doesn't leave many options, and the user will probably have to delete some boilerplate after the install
+- Opinionated install doesn't leave many options, and the user will probably have to delete some boilerplate after the install.
 - Unfamiliar install process might be a minor setback to start.
 - node_modules is five times the size of React's or Vue's to start.
 
@@ -72,7 +72,7 @@ Vue's initial install is the easiest, the React is pretty much neck-and-neck in 
 
 #### Pros
 
-- Easy install
+- Easy install.
 - No external dependencies to start.
 - Lightest main package install.
 
@@ -88,19 +88,14 @@ Vue's initial install is the easiest, the React is pretty much neck-and-neck in 
 - Svelte: 0
 - Vue: +2
 
-#### Total So Far
-
-- React: 1
-- Svelte: 0
-- Vue: 2
-
 <hr />
 
 ## Initial Entry File Setup
 
 ### React
 
-I'll set up my entry file inside this folder structure:
+For our folder structure, let's assume a few things:
+- that our bundled code will be put into a separate folder called `dist`.
 
 ```
 - dist
