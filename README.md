@@ -56,19 +56,19 @@ Given our lack of choices in setup, and given that our install is pretty weighty
 
 #### Cons
 
-- Opinionated install doesn't leave many options, and user will probably have to delete some boilerplate after the install
+- Opinionated install doesn't leave many options, and the user will probably have to delete some boilerplate after the install
 - Unfamiliar install process might be a minor setback to start.
 - node_modules is five times the size of React's or Vue's to start.
 
 ### Vue
 
+To install Vue:
+
 ```sh
 npm install vue
 ```
 
-Vue's initial install is the easiest. No external dependencies are added in the process, and the resulting folder size is also the smallest.
-
-**Folder size so far: 3.6mb**
+Vue's initial install is the easiest, the React is pretty much neck-and-neck in this regard. With Vue's install, no external dependencies are added in the process, and the resulting folder size is also the smallest at 3.6mb.
 
 #### Pros
 
