@@ -9,6 +9,8 @@ In this repo, I compare and contrast these three frameworks across a number of m
 
 ## Main Package Installation
 
+In this section, I look at the minimum necessary steps to install each framework POC to a point that it's essentially usable without needing to install anything else. You likely wouldn't want to use these without other dependencies, but this will give a good idea of what it takes to get "up and running" with the framework.
+
 ### React
 
 ```sh
@@ -92,10 +94,14 @@ Vue's initial install is the easiest, the React is pretty much neck-and-neck in 
 
 ## Initial Entry File Setup
 
-### React
-
-For our folder structure, let's assume a few things:
+For each of these framework POCs, let's assume a few things:
 - that our bundled code will be put into a separate folder called `dist`.
+- that our bundled code will be pulled in with a single `<script>` tag from a standard **index.html** file.
+- that we'll keep our source code in a folder called `src`.
+- that our source code will have a standard entry file (`index` or `main`).
+- that our source code will have a main `App` component through which all other components are children.
+
+### React
 
 ```
 - dist
