@@ -9,7 +9,7 @@ In this repo, I compare and contrast these three frameworks across a number of m
 
 ## Main Package Installation
 
-In this section, I look at the minimum necessary steps to install each framework POC to a point that it's essentially usable without needing to install anything else. You likely wouldn't want to use these without other dependencies, but this will give a good idea of what it takes to get "up and running" with the framework.
+In this section, I look at the minimum necessary steps to install each framework's main proprietary packages. The framework will mostly be unusable at this point until more build tools are introduced.
 
 ### React
 
