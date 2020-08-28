@@ -28,8 +28,8 @@ In reality, there are only three non-React packages that get installed as depend
     > A tokenizer splits the input into a stream of larger units called tokens. This happens in a separate stage before parsing. For example, a tokenizer might convert 512 + 10 into ["512", "+", "10"]: notice how it removed the whitespace, and combined multi-digit numbers into a single number.
 
     js-tokens is a dependency of loose-envify.
-  - loose-envify
-  - object-assign
+  - loose-envify helps convert Node environment variables to strings.
+  - object-assign is a polyfill for `Object.assign()`.
 
 Once `react` and `react-dom` are installed, React's node_modules folder is 3.8mb.
 
