@@ -24,7 +24,10 @@ All in all, a little less than ten individual non-React dependencies are install
 
 In reality, there are only three non-React packages that get installed as dependencies when setting up React: **js-tokens**, **loose-envify**, and **object-assign**.
   - js-tokens is a tokenizer. [nearley.js'](https://nearley.js.org/docs/tokenizers#:~:text=A%20tokenizer%20splits%20the%20input,of%20larger%20units%20called%20tokens.&text=For%20example%2C%20a%20tokenizer%20can,line%20numbers%20for%20each%20token.) documentation explains what a tokenizer does:
+
     > A tokenizer splits the input into a stream of larger units called tokens. This happens in a separate stage before parsing. For example, a tokenizer might convert 512 + 10 into ["512", "+", "10"]: notice how it removed the whitespace, and combined multi-digit numbers into a single number.
+
+    js-tokens is a dependency of loose-envify.
   - loose-envify
   - object-assign
 
