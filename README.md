@@ -31,7 +31,7 @@ In reality, there are only three non-React packages that get installed as depend
   - loose-envify helps convert Node environment variables to strings.
   - object-assign is a polyfill for `Object.assign()`.
 
-Once `react` and `react-dom` are installed, React's node_modules folder is 3.8mb.
+The footprint of these external dependencies is relatively small, totalling 78kb out of the full 3.8mb after installing `react` and `react-dom`. The biggest item of all installed packages is `react-dom`, coming out to 3.1mb, or roughly 82% of the total size of the node_modules folder.
 
 #### Pros:
 
