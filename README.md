@@ -33,7 +33,7 @@ React, on the other hand, has these three external dependencies: **js-tokens**, 
 
 The footprint of these external dependencies is relatively small, totalling 78kb out of the full 3.8mb after installing `react` and `react-dom`, so their inclusion doesn't negatively affect the weight of the node_modules folder. 
 
-You could argue that React's use of these packages makes it less "monolothic" and more community-driven than the other two frameworks. Of course, none of these frameworks would be here without their communities, but it's a small detail that could be meaningful to some.
+You could argue that React's use of these packages makes it less "monolothic" and more community-driven than the other two frameworks. Of course, none of these frameworks would be here without their communities, but it's a small detail that could be meaningful to some, especially given that React is in part backed by the infamous Facebook.
 
 The biggest item of all installed packages is `react-dom`, coming out to 3.1mb, or roughly 82% of the total size of the node_modules folder.
 
