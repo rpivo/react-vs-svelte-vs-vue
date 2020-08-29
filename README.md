@@ -20,9 +20,9 @@ npm install react-dom
 
 Both `react` and `react-dom` are needed to get up and running with an independent React project. The install process is relatively easy, though (negligibly) more complicated than Svelte and Vue. 
 
-All in all, a little less than ten individual non-React dependencies are installed. Although it arguably doesn't matter, React's approach differs from Svelte and Vue -- Svelte's install adds a single `svelte` folder to node_modules, and Vue's install adds a single `vue` folder to node_modules.
+Three non-React dependencies are also installed in the process. React's approach differs from Svelte and Vue -- Svelte's install adds a single `svelte` folder to node_modules, and Vue's install adds a single `vue` folder to node_modules.
 
-In reality, there are only three non-React packages that get installed as dependencies when setting up React: **js-tokens**, **loose-envify**, and **object-assign**.
+React, on the other hand, has these three external dependencies: **js-tokens**, **loose-envify**, and **object-assign**.
   - js-tokens is a tokenizer. [nearley.js'](https://nearley.js.org/docs/tokenizers#:~:text=A%20tokenizer%20splits%20the%20input,of%20larger%20units%20called%20tokens.&text=For%20example%2C%20a%20tokenizer%20can,line%20numbers%20for%20each%20token.) documentation explains what a tokenizer does:
 
     > A tokenizer splits the input into a stream of larger units called tokens. This happens in a separate stage before parsing. For example, a tokenizer might convert 512 + 10 into ["512", "+", "10"]: notice how it removed the whitespace, and combined multi-digit numbers into a single number.
