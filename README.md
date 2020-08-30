@@ -33,17 +33,18 @@ React, on the other hand, has these three external dependencies: **js-tokens**, 
 
 The footprint of these external dependencies is relatively small, totalling 78kb out of the full 3.8mb after installing `react` and `react-dom`, so their inclusion doesn't negatively affect the weight of the node_modules folder. 
 
-You could argue that React's use of these packages makes it less "monolothic" and more community-driven than the other two frameworks. Of course, none of these frameworks would be here without their communities, but it's a small detail that could be meaningful to some, especially given that React is in part backed by the infamous Facebook.
+You could argue that React's use of these packages makes it less "monolothic" and more community-driven than the other two frameworks. None of these frameworks would be here without their communities, but it's a small detail that could be meaningful to you, especially given that React is in part backed by a company like Facebook.
 
 The biggest item of all installed packages is `react-dom`, coming out to 3.1mb, or roughly 82% of the total size of the node_modules folder.
 
 #### Pros:
 
-- Easy install is about on par with Vue, and arguably more simple than Svelte's install process.
+- node_modules is slightly smaller than Svelte's: 3.8mb vs 3.9mb.
+- initial install relies on community packages more so than Vue and Svelte.
 
 #### Cons:
 
-- Project folder starts off with slightly more dependencies than Vue, but the resulting node_modules folders are 3.8mb and 3.6mb in size, respectively. Not that much difference, but Vue has a tiny advantage here.
+- node_modules is slightly bigger than Vue's: 3.8mb vs 3.6mb.
 
 ### Svelte
 
