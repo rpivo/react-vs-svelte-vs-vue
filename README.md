@@ -37,7 +37,7 @@ The footprint of these external dependencies is relatively small, totalling 78kb
 
 You could argue that React's use of these packages makes it less "monolothic" and more community-driven than the other two frameworks. None of these frameworks would be here without their communities, but it's a small detail that could be meaningful to you, especially given that React is in part backed by a company like Facebook.
 
-On the other hand, you could argue that the "monolothic" installs of Vue and Svelte contain only propietary code that was written specifically for their respective ecosystems. I've decided to leave these details out of the pros and cons because it really is subjective.
+On the other hand, you could also say that the "monolothic" installs of Vue and Svelte contain only proprietary code that was written specifically for their respective ecosystems. I've decided to leave these details out of the pros and cons because it really is subjective.
 
 The biggest item of all installed packages is `react-dom`, coming out to 3.1mb, or roughly 82% of the total size of the node_modules folder.
 
