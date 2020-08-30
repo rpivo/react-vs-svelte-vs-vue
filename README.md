@@ -18,7 +18,9 @@ npm install react
 npm install react-dom
 ```
 
-Both `react` and `react-dom` are needed to get up and running with an independent React project. The install process is relatively easy, though (negligibly) more complicated than Svelte and Vue. 
+Both `react` and `react-dom` are needed to get up and running with an independent React project. The install process is relatively easy, though slightly more complicated than Svelte and Vue in that two packages have to be installed rather than one (not much to complain about, but worth mentioning).
+
+In a way, though, the separation of `react` and `react-dom` shows one of the strong suits of the React ecosystem -- every piece of the toolchain is opt-in and not mandatory. React really has tried to build something that decouples all the pieces, allowing you to control how opinionated it is.
 
 Three non-React dependencies are also installed in the process. React's approach differs from Svelte and Vue -- Svelte's install adds a single `svelte` folder to node_modules, and Vue's install adds a single `vue` folder to node_modules.
 
@@ -40,20 +42,20 @@ The biggest item of all installed packages is `react-dom`, coming out to 3.1mb, 
 #### Pros:
 
 - node_modules is slightly smaller than Svelte's: 3.8mb vs 3.9mb.
-- initial install relies on community packages more so than Vue and Svelte.
+- Initial install relies on community packages more so than Vue and Svelte.
+- Separation of `react` and `react-dom` illustrates React's commitment to an opt-in, unopinionated ecosystem.
 
 #### Cons:
 
 - node_modules is slightly bigger than Vue's: 3.8mb vs 3.6mb.
+- You need to install two packages rather than one.
 
 ### Svelte
 
 The Svelte docs recommend these commands to set up a Svelte project:
 
 ```sh
-npx degit sveltejs/template svelte-repo
-cd svelte-repo
-npm install
+npm install svelte
 ```
 
 Svelte's approach is opinionated and generates some amount of boilerplate. It's similar to setting up a project with `create-react-app` wherein the project is bootstrapped in no time for the developer. A lot of decisions are handled on the fly, and if we want to alter these previously made decisions, we'll likely have to refactor or completely gut some auto-generated code.
